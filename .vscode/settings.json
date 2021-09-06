@@ -1,0 +1,12 @@
+{
+    "editor.cursorSmoothCaretAnimation": true,
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.automationShell.linux": "",
+    "terminal.integrated.automationShell.osx": "",
+    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.fontSize": 14
+}
