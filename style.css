@@ -31,62 +31,78 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
-    margin-bottom: 1em;
-    line-height: 1.4em;
-}
-
-.neutral-theme {
-    background-color: white;
-    --button-color: var(--primary)
-    --button-hover-color: white:
-}
-
-.primary-theme {
-    color: white;
-    background-color: var(--primary);
-    --button-color: white;
-    --button-hoever-color: var(--primary);
-
-    
-}
-
-.button {
-    padding: 1rem;
-    border: 2px solid var(--button-color);
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--button-color);
-}
-
-.button:hover {
-    color: var(button-hover-color);
-    background-color: var(--button-color);
-}
-
-.about {
+section {
     padding: var(--spacing);
 }
 
-.about-container {
-    max-width: 960px;
-    margin: 0 auto;
-}
+p {
+    margin-bottom: 1em;
+    line-height: 1.4em;
 
-.about-img {
-    display: block;
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto var(--spacing);
-}
+    blockquote {
+        margin-top: var(--spacing);
+        font-size: 2rem;
+        font-style: italic;
+        text-align: center;
+    }
 
-@media (min-width: 800px) {
+    cite {
+        display: block;
+        font-style: normal;
+        font-size: 1rem;
+        font-style: normal;
+    }
+
+    .neutral-theme {
+        background-color: white;
+        --button-color: var(--primary);
+        --button-hover-color: white;
+    }
+
+    .primary-theme {
+        color: white;
+        background-color: var(--primary);
+        --button-color: white;
+        --button-hover-color: var(--primary);
+    }
+
+    .button {
+        padding: 1rem;
+        border: 2px solid var(--button-color);
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--button-color);
+    }
+
+    .button:hover {
+        color: var(--button-hover-color);
+        background-color: var(--button-color);
+    }
+
+
     .about-container {
-        display: flex;
-        align-items: flex-start;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
-    .about-text {
-        margin-left: var(--spacing);
+    .about-img {
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto var(--spacing);
     }
-}
+
+    .about-img:hover {
+        filter: grayscale(0);
+    }
+
+    @media (min-width: 800px) {
+        .about-container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .about-text {
+            margin-left: var(--spacing);
+        }
+    }
