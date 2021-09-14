@@ -113,7 +113,7 @@ cite {
     text-align: center;
 }
 
-.footer {
+footer {
     padding: var(--spacing);
     text-align: center;
     background-color: #333;
@@ -145,6 +145,19 @@ cite {
 
 .github {
     background-image: url(images/github.svg);
+}
+
+.facebook {
+    background-image: url(images/facebook.svg);
+}
+
+.instagram {
+    background-image: url(images/instagram.svg);
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+    transition: transform 0.3 ease-in-out;
 }
 
 @media (min-width: 800px) {
