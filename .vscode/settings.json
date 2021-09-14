@@ -8,5 +8,6 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableBell": true,
-    "terminal.integrated.fontSize": 14
+    "terminal.integrated.fontSize": 14,
+    "json.format.enable": false
 }
