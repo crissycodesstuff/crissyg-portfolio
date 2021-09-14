@@ -143,6 +143,10 @@ cite {
     background-image: url(images/linkedin.svg);
 }
 
+.github {
+    background-image: url(images/github.svg);
+}
+
 @media (min-width: 800px) {
     .about-container {
         display: flex;
